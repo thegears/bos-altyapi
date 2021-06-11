@@ -1,5 +1,4 @@
 const { MessageEmbed } = require("discord.js");
-const { stripIndents } = require("common-tags");
 const config = require("../../config.json");
 var prefix = config.prefix;
 
