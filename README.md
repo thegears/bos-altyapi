@@ -1,1 +1,1 @@
-Beler yükledikten sonra console'a _npm i_ yazın.
+Yükledikten sonra console'a _npm i_ yazın.
