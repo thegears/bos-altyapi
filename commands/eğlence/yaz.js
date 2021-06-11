@@ -10,6 +10,7 @@ module.exports = {
 
     //running the command with the parameters: client, message, args, user, text, prefix
     run: async (client, message, args, user, text, prefix) => {
+        if(!text) return message.channel.send("Bir yazı girin.");
         message.channel.send(text) 
     }
 }
