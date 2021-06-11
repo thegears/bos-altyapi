@@ -1,0 +1,23 @@
+const { MessageEmbed } = require("discord.js");
+const { stripIndents } = require("common-tags");
+const config = require("../../config.json");
+const Discord = require("discord.js");
+const db = require("quick.db");
+
+
+
+module.exports = {
+    //definition
+        name: "", //komutun ismi
+        category: "", //komutun kategorisi
+        aliases: [], //alternatifler
+        cooldown: 5, //gecikme
+        usage: "", //kullanışı
+        description: "", //açıklama
+
+    run: async (client, message, args, user, text, prefix) => {
+        
+    }
+}
+
+//Yeni bir dosya aç dosyaadi.js gibi uzantısı js olsun Sonra yukarıdaki kodu içerisine at gerekli yerleri doldur
