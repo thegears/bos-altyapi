@@ -116,7 +116,7 @@ client.commands = new Collection(); //an collection (like a digital map(database
         );
       }
     } //if the command is not found send an info message
-    else return message.reply(`Bilinmeyen komut, dene: **\`${prefix}yardım\`**`);
+    else return message.reply(`Böyle bir komutum yok , komutlara bakmak için : **\`${prefix}yardım\`**`);
   });
 
   client.login(config.token); //login into the bot
